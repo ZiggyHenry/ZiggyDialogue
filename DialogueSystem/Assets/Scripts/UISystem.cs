@@ -24,7 +24,6 @@ class StringReveal
 
     public bool isDone()
     {
-        Debug.Log((textToReveal == null || currentStringIndex == textToReveal.Length));
         return (textToReveal == null || currentStringIndex == textToReveal.Length);
     }
 
